@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Lab 1</title>
+		<link href="lab1_style.css" rel="stylesheet" type="text/css"/>
+		<script src="Lab1.js"></script>
+	</head>
+	<body>
+		<h1>Login Page</h1>
+		<form action="#" method="post" id="login" name="login">
+		<fieldset>
+		<legend>User Authentication</legend>
+		<div>
+		<label for = "login__username" class="lbl">Username: </label>
+		<input type = "text" id="login__username" class="box" />
+		</div>
+		
+		<div>
+		<label for = "login__password" class="lbl">Password: </label>
+		<input type = "password" id="login__password" class="box" />
+		</div>	
+		
+		<button type="submit" name="login__submit" id="login__submit">Login</button>
+		</fieldset>
+		</form>
+	
+		<div id="value">
+		<p>User Name: <span id="value__username"></span></p>
+		<p>Password: <span id="value__password"></span></p>
+		</div>
+	</body>
+</html>
